@@ -12,12 +12,15 @@ let customer = getCustomer(1)
 
 console.log(customer?.birthday?.getFullYear())
 
+console.log("femi is a good boy")
+console.log('isssssaisduygdjhf')
+
 
 //optional element access operator
 // customers?.[0]
 
 //optonal call
 
-let log: any =  null
+// let log: any =  null
 
-log?.('a')
+// log?.('a')
