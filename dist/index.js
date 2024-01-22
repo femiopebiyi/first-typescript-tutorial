@@ -1,7 +1,7 @@
 "use strict";
-let employee = { id: 1, name: "Femi",
-    retire: (date) => {
-        console.log(date);
-    }
-};
+function getCustomer(id) {
+    return id === 0 ? null : { birthday: new Date() };
+}
+let customer = getCustomer(1);
+console.log(typeof (customer === null || customer === void 0 ? void 0 : customer.birthday));
 //# sourceMappingURL=index.js.map
