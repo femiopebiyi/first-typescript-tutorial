@@ -1,3 +1,3 @@
-let numbers: number[] = [1,3,3]
+let user: [number, string] = [1, 'femi']
 
-numbers.forEach(n=> n.toString)
+//array of fixed length
