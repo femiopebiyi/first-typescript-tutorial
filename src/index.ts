@@ -1,10 +1,9 @@
-
-const enum Size {
-    Small = 1,
-    Medium,
-    Large
+function calculateTax (income: number, taxYear: number = 2022): number{
+    if(taxYear < 50_000){
+        return income * 1.2
+    } else{
+        return income * 1.3
+    }
 }
 
-let mySize: Size = Size.Medium;
-
-console.log(mySize)
+calculateTax(10000, 2022)
